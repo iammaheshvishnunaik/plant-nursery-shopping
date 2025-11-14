@@ -77,7 +77,7 @@ function PlantNurseryApp() {
     return (
         <div>
             <nav>
-                <div><strong>Plant Shop</strong></div>
+                <div><strong>Plant Nursery Shop</strong></div>
                 <div>
                     <a href="#" onClick={() => setPage("landing")}>Home</a>
                     <a href="#" onClick={() => setPage("products")}>Products</a>
