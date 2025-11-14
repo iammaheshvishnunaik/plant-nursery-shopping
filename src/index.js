@@ -79,9 +79,9 @@ function PlantNurseryApp() {
             <nav>
                 <div><strong>Plant Nursery Shop</strong></div>
                 <div>
-                    <a href="#" onClick={() => setPage("landing")}>Home</a>
-                    <a href="#" onClick={() => setPage("products")}>Products</a>
-                    <a href="#" onClick={() => setPage("cart")}>Cart ({cart.length})</a>
+                    <button onClick={() => setPage("landing")}>Home</button>
+                    <button onClick={() => setPage("products")}>Products</button>
+                    <button onClick={() => setPage("cart")}>Cart ({cart.length})</button>
                 </div>
             </nav>
 
