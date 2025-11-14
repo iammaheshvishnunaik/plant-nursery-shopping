@@ -107,3 +107,22 @@ button:hover {
     font-size: 18px;
     text-align: right;
 }
+
+.container.bg-image{
+    background-image: url('https://www.shutterstock.com/image-photo/nursery-shed-shelters-potted-indoor-260nw-1187505259.jpg');
+    background-size: 100%;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 0;
+    height: 400px
+}
+.container.bg-image h1{
+    padding-top: 150px;
+}
+.container.bg-image p{
+    font-size: 16px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
